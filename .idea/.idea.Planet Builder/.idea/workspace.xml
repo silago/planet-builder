@@ -1,78 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b14cbef-9b5c-4a40-a7e1-07000d0b9ca8" name="Default" comment="" />
+    <list default="true" id="0b14cbef-9b5c-4a40-a7e1-07000d0b9ca8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Scripts/BaseBuilding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/BuildPlacer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/BuildSignalReactor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Planet Builder/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Planet Builder/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Planet Builder/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Planet Builder/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Planet Builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Planet Builder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor_player" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/metadata/scripts_metadata.editor_player" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Tools/Planet Builder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/bin/Tools/Planet Builder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/bin/Tools/Planet Builder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/bin/Tools/Planet Builder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Tools/Planet Builder.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Tools/Planet Builder.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Tools/Planet Builder.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Tools/Planet Builder.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Tools/Planet Builder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Tools/Planet Builder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mono/temp/obj/Tools/Planet Builder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.mono/temp/obj/Tools/Planet Builder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planet Builder.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Planet Builder.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prefabs/Node.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Prefabs/Node.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/main.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/main.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SignalManger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/SignalManger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SignalReactor.cs" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SignalManger.cs" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/SignalManger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="150">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
-                <marker date="1564004090598" expanded="true" signature="6:128" ph="..." />
-                <marker date="1564004090598" expanded="true" signature="163:1026" ph="{...}" />
-                <marker date="1564004090598" expanded="true" signature="170:334" ph="/* private static SignalManger _instance; ... */" />
-                <marker date="1564004090598" expanded="true" signature="581:698" ph="{...}" />
-                <marker date="1564004090598" expanded="true" signature="633:692" ph="{...}" />
-                <marker date="1564004090598" expanded="true" signature="755:919" ph="{...}" />
-                <marker date="1564004090598" expanded="true" signature="808:879" ph="{...}" />
-                <marker date="1564004090598" expanded="true" signature="978:1024" ph="{...}" />
+                <marker date="1564060661751" expanded="false" signature="6:137" ph="..." />
+                <marker date="1564060661751" expanded="true" signature="172:1134" ph="{...}" />
+                <marker date="1564060661751" expanded="true" signature="179:343" ph="/* private static SignalManger _instance; ... */" />
+                <marker date="1564060661751" expanded="true" signature="689:806" ph="{...}" />
+                <marker date="1564060661751" expanded="true" signature="741:800" ph="{...}" />
+                <marker date="1564060661751" expanded="true" signature="863:1027" ph="{...}" />
+                <marker date="1564060661751" expanded="true" signature="916:987" ph="{...}" />
+                <marker date="1564060661751" expanded="true" signature="1086:1132" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventsHandler.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/EventsHandler.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/BuildPlacer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <marker date="1564001469744" expanded="true" signature="10:87" ph="..." />
-                <marker date="1564001469744" expanded="true" signature="125:289" ph="{...}" />
-                <marker date="1564001469744" expanded="true" signature="230:283" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="47:1065" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="142:264" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="299:311" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="345:366" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="418:528" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="461:521" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="584:1063" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="616:656" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="807:889" ph="{...}" />
+                <marker date="1564062882349" expanded="true" signature="951:1047" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignalReactor.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scripts/SignalReactor.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scripts/BuildSignalReactor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding>
-                <marker date="1564004822864" expanded="true" signature="6:67" ph="..." />
-                <marker date="1564004822864" expanded="true" signature="102:835" ph="{...}" />
-                <marker date="1564004822864" expanded="true" signature="109:283" ph="/* Declare member variables here. Examples: ... */" />
-                <marker date="1564004822864" expanded="true" signature="317:402" ph="{...}" />
-                <marker date="1564004822864" expanded="true" signature="458:683" ph="{...}" />
-                <marker date="1564004822864" expanded="true" signature="685:833" ph="/* Called every frame. 'delta' is the elapsed time since the previous frame. ... */" />
+                <marker date="1564066986392" expanded="false" signature="6:67" ph="..." />
+                <marker date="1564066986392" expanded="true" signature="109:1878" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="212:297" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="353:809" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="388:784" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="519:774" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="859:1086" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="938:1079" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="1135:1213" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="1174:1207" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="1269:1754" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="1301:1341" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="1492:1584" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="1646:1738" ph="{...}" />
+                <marker date="1564066986392" expanded="true" signature="1780:1876" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignalButton.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/SignalButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+            <state relative-caret-position="285">
+              <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
               <folding>
-                <marker date="1564004215818" expanded="false" signature="6:26" ph="..." />
-                <marker date="1564004215818" expanded="true" signature="62:653" ph="{...}" />
-                <marker date="1564004215818" expanded="true" signature="79:253" ph="/* Declare member variables here. Examples: ... */" />
-                <marker date="1564004215818" expanded="true" signature="287:334" ph="{...}" />
-                <marker date="1564004215818" expanded="true" signature="371:501" ph="{...}" />
-                <marker date="1564004215818" expanded="true" signature="503:651" ph="/* Called every frame. 'delta' is the elapsed time since the previous frame. ... */" />
+                <marker date="1564048115557" expanded="false" signature="6:26" ph="..." />
+                <marker date="1564048115557" expanded="true" signature="62:653" ph="{...}" />
+                <marker date="1564048115557" expanded="true" signature="79:253" ph="/* Declare member variables here. Examples: ... */" />
+                <marker date="1564048115557" expanded="true" signature="287:334" ph="{...}" />
+                <marker date="1564048115557" expanded="true" signature="371:501" ph="{...}" />
+                <marker date="1564048115557" expanded="true" signature="503:651" ph="/* Called every frame. 'delta' is the elapsed time since the previous frame. ... */" />
               </folding>
             </state>
           </provider>
@@ -80,77 +115,73 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Scripts/EventsHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Scripts/SignalButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Scripts/SignalReactor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Scripts/BaseBuilding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Scripts/SignalManger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Scripts/BuildSignalReactor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9666B1DC-766E-4592-A35D-23F4D4F59A4B/89/ccd93c5e/InputEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Scripts/SignalButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Scripts/EventsHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9666B1DC-766E-4592-A35D-23F4D4F59A4B/a7/232a666d/Resource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Scripts/BuildPlacer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Scripts/SignalButton.cs" />
         <option value="$PROJECT_DIR$/Scripts/EventsHandler.cs" />
         <option value="$PROJECT_DIR$/Scripts/SignalManger.cs" />
-        <option value="$PROJECT_DIR$/Scripts/SignalButton.cs" />
+        <option value="$PROJECT_DIR$/Scripts/BaseBuilding.cs" />
         <option value="$PROJECT_DIR$/Scripts/SignalReactor.cs" />
+        <option value="$PROJECT_DIR$/Scripts/BuildPlacer.cs" />
+        <option value="$PROJECT_DIR$/Scripts/BuildSignalReactor.cs" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="196" />
     <option name="y" value="142" />
-    <option name="width" value="1400" />
-    <option name="height" value="788" />
+    <option name="width" value="1922" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Planet Builder (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Planet Builder" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Planet Builder (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Planet Builder" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Planet Builder" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Planet Builder" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Planet Builder (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Planet Builder" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Planet Builder" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Planet Builder" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
+        <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -171,19 +202,19 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <envs />
-      <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="None" />
       <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -196,11 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563993117109</updated>
       <workItem from="1563993124526" duration="7643000" />
+      <workItem from="1564048515709" duration="10133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7643000" />
+    <option name="totallyTimeSpent" value="17776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -212,106 +244,162 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="142" width="1400" height="788" extended-state="0" />
-    <editor active="true" />
+    <frame x="196" y="142" width="1922" height="1049" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" />
+      <window_info id="Image Layers" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scripts/SignalButton.gd">
+    <entry file="file://$PROJECT_DIR$/Scripts/SignalButton.gd" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9666B1DC-766E-4592-A35D-23F4D4F59A4B/a7/232a666d/Resource.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="195">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/EventsHandler.cs">
+    <entry file="file://$PROJECT_DIR$/Scripts/SignalButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
           <folding>
-            <marker date="1564001469744" expanded="true" signature="10:87" ph="..." />
-            <marker date="1564001469744" expanded="true" signature="125:289" ph="{...}" />
-            <marker date="1564001469744" expanded="true" signature="230:283" ph="{...}" />
+            <marker date="1564048115557" expanded="false" signature="6:26" ph="..." />
+            <marker date="1564048115557" expanded="true" signature="62:653" ph="{...}" />
+            <marker date="1564048115557" expanded="true" signature="79:253" ph="/* Declare member variables here. Examples: ... */" />
+            <marker date="1564048115557" expanded="true" signature="287:334" ph="{...}" />
+            <marker date="1564048115557" expanded="true" signature="371:501" ph="{...}" />
+            <marker date="1564048115557" expanded="true" signature="503:651" ph="/* Called every frame. 'delta' is the elapsed time since the previous frame. ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/SignalManger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="150">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
-            <marker date="1564004090598" expanded="true" signature="6:128" ph="..." />
-            <marker date="1564004090598" expanded="true" signature="163:1026" ph="{...}" />
-            <marker date="1564004090598" expanded="true" signature="170:334" ph="/* private static SignalManger _instance; ... */" />
-            <marker date="1564004090598" expanded="true" signature="581:698" ph="{...}" />
-            <marker date="1564004090598" expanded="true" signature="633:692" ph="{...}" />
-            <marker date="1564004090598" expanded="true" signature="755:919" ph="{...}" />
-            <marker date="1564004090598" expanded="true" signature="808:879" ph="{...}" />
-            <marker date="1564004090598" expanded="true" signature="978:1024" ph="{...}" />
+            <marker date="1564060661751" expanded="false" signature="6:137" ph="..." />
+            <marker date="1564060661751" expanded="true" signature="172:1134" ph="{...}" />
+            <marker date="1564060661751" expanded="true" signature="179:343" ph="/* private static SignalManger _instance; ... */" />
+            <marker date="1564060661751" expanded="true" signature="689:806" ph="{...}" />
+            <marker date="1564060661751" expanded="true" signature="741:800" ph="{...}" />
+            <marker date="1564060661751" expanded="true" signature="863:1027" ph="{...}" />
+            <marker date="1564060661751" expanded="true" signature="916:987" ph="{...}" />
+            <marker date="1564060661751" expanded="true" signature="1086:1132" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/SignalButton.cs">
+    <entry file="file://$PROJECT_DIR$/Scripts/BaseBuilding.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <marker date="1564004215818" expanded="false" signature="6:26" ph="..." />
-            <marker date="1564004215818" expanded="true" signature="62:653" ph="{...}" />
-            <marker date="1564004215818" expanded="true" signature="79:253" ph="/* Declare member variables here. Examples: ... */" />
-            <marker date="1564004215818" expanded="true" signature="287:334" ph="{...}" />
-            <marker date="1564004215818" expanded="true" signature="371:501" ph="{...}" />
-            <marker date="1564004215818" expanded="true" signature="503:651" ph="/* Called every frame. 'delta' is the elapsed time since the previous frame. ... */" />
+            <marker date="1564061751866" expanded="true" signature="10:87" ph="..." />
+            <marker date="1564061751866" expanded="true" signature="126:344" ph="{...}" />
+            <marker date="1564061751866" expanded="true" signature="290:337" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/SignalReactor.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9666B1DC-766E-4592-A35D-23F4D4F59A4B/89/ccd93c5e/InputEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="153" column="93" selection-start-line="153" selection-start-column="93" selection-end-line="153" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/EventsHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
           <folding>
-            <marker date="1564004822864" expanded="true" signature="6:67" ph="..." />
-            <marker date="1564004822864" expanded="true" signature="102:835" ph="{...}" />
-            <marker date="1564004822864" expanded="true" signature="109:283" ph="/* Declare member variables here. Examples: ... */" />
-            <marker date="1564004822864" expanded="true" signature="317:402" ph="{...}" />
-            <marker date="1564004822864" expanded="true" signature="458:683" ph="{...}" />
-            <marker date="1564004822864" expanded="true" signature="685:833" ph="/* Called every frame. 'delta' is the elapsed time since the previous frame. ... */" />
+            <marker date="1564048115557" expanded="true" signature="10:87" ph="..." />
+            <marker date="1564048115557" expanded="true" signature="125:289" ph="{...}" />
+            <marker date="1564048115557" expanded="true" signature="230:283" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/BuildPlacer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <marker date="1564062882349" expanded="true" signature="47:1065" ph="{...}" />
+            <marker date="1564062882349" expanded="true" signature="142:264" ph="{...}" />
+            <marker date="1564062882349" expanded="true" signature="299:311" ph="{...}" />
+            <marker date="1564062882349" expanded="true" signature="345:366" ph="{...}" />
+            <marker date="1564062882349" expanded="true" signature="418:528" ph="{...}" />
+            <marker date="1564062882349" expanded="true" signature="461:521" ph="{...}" />
+            <marker date="1564062882349" expanded="true" signature="584:1063" ph="{...}" />
+            <marker date="1564062882349" expanded="true" signature="616:656" ph="{...}" />
+            <marker date="1564062882349" expanded="true" signature="807:889" ph="{...}" />
+            <marker date="1564062882349" expanded="true" signature="951:1047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/BuildSignalReactor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <marker date="1564066986392" expanded="false" signature="6:67" ph="..." />
+            <marker date="1564066986392" expanded="true" signature="109:1878" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="212:297" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="353:809" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="388:784" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="519:774" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="859:1086" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="938:1079" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="1135:1213" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="1174:1207" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="1269:1754" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="1301:1341" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="1492:1584" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="1646:1738" ph="{...}" />
+            <marker date="1564066986392" expanded="true" signature="1780:1876" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,8 @@
 using Godot;
 using System;
+using System.Collections.Generic;
 using System.Runtime.Remoting.Messaging;
 using System.Security.Cryptography;
-using Godot.Collections;
 
 public class SignalManger : Node 
 {
@@ -11,11 +11,13 @@ public class SignalManger : Node
     //{
     //    return _instance ?? (_instance = new SignalManger());
     //}
+
+    public static List<Node> activeObjects = new List<Node>();
     
     
     public delegate void Signal(params object[] vars);
     
-    public static  Dictionary<string, EventsHandler> events = new Dictionary<string, EventsHandler>();
+    public static Godot.Collections.Dictionary<string, EventsHandler> events = new Godot.Collections.Dictionary<string, EventsHandler>();
     
     public static void SendSignal(string name, params object[] vars)
     {

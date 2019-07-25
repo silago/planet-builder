@@ -4,3 +4,9 @@
 /home/silago/godot/planet-builder/.mono/temp/obj/Tools/Planet Builder.csproj.CoreCompileInputs.cache
 /home/silago/godot/planet-builder/.mono/temp/obj/Tools/Planet Builder.dll
 /home/silago/godot/planet-builder/.mono/temp/obj/Tools/Planet Builder.pdb
+/home/silago/work/planet-builder/.mono/temp/bin/Tools/Planet Builder.dll
+/home/silago/work/planet-builder/.mono/temp/bin/Tools/Planet Builder.pdb
+/home/silago/work/planet-builder/.mono/temp/obj/Tools/Planet Builder.csprojAssemblyReference.cache
+/home/silago/work/planet-builder/.mono/temp/obj/Tools/Planet Builder.csproj.CoreCompileInputs.cache
+/home/silago/work/planet-builder/.mono/temp/obj/Tools/Planet Builder.dll
+/home/silago/work/planet-builder/.mono/temp/obj/Tools/Planet Builder.pdb
