@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using System.Collections.Generic;
 using System.Runtime.Remoting.Messaging;
 
 public class BuildSignalReactor : Area2D
@@ -15,9 +16,9 @@ public class BuildSignalReactor : Area2D
 
     private void OnSignalReceive(params object[] vars)
     {
-        if (vars.Length > 0)
+        if (vars.Length > 0 && vars[0] is PackedScene prefab) 
         {
-            var prefab = GD.Load<PackedScene>(vars[0].ToString());
+            //var prefab = GD.Load<PackedScene>(vars[0].ToString());
             if (prefab.Instance() is Node2D instance)
             {
                 node = instance;
@@ -34,10 +35,8 @@ public class BuildSignalReactor : Area2D
 
     private void OnBodyEnter(PhysicsBody2D body)
     {
-        GD.Print(" on body enter");
         if (body.IsInGroup("floor"))
         {
-            GD.Print(" body is in group floor");
             activeFloor = body;
         } 
     }
@@ -49,7 +48,40 @@ public class BuildSignalReactor : Area2D
             activeFloor = null;
         }
     }
-    
+
+    public override void _PhysicsProcess(float delta)
+    {
+        base._PhysicsProcess(delta);
+        if (node == null)
+        {
+            return;
+        }
+
+        if (activeFloor == null)
+        {
+            node.Position = Position;
+        }
+        else
+        {
+            var space = GetWorld2d().DirectSpaceState;
+            var result = space.IntersectRay(node.Position + new Vector2(0,10).Rotated(node.Rotation+Mathf.Deg2Rad(90)), Position);
+            if (result.Count != 0)
+            {
+                Vector2 pos = (Vector2)result["position"];
+                GD.Print(result["position"]);
+                GD.Print(result["collider"]);
+                node.LookAt(Position);
+                node.Position = pos ;
+            }
+            else
+            {
+                GD.Print("no collision");
+            }
+        }
+
+                  
+    }
+
     public override void _Input(InputEvent @event)
     {
         if (node == null)
@@ -63,7 +95,9 @@ public class BuildSignalReactor : Area2D
             
             if (@event is InputEventMouseMotion mouseMotion)
             {
-               Position = node.Position = mouseMotion.Position;
+               //GetGlobalMousePosition()
+               
+               Position = GetGlobalMousePosition();//mouseMotion.Position;
                if (activeFloor != null)
                {
                    node.LookAt(activeFloor.Position);

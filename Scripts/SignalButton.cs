@@ -3,8 +3,10 @@ using System;
 
 public class SignalButton : Button
 {
+
     
-    
+    [Export]
+    protected PackedScene BuildingPrefab;
     // Declare member variables here. Examples:
     // private int a = 2;
     // private string b = "text";
@@ -18,8 +20,8 @@ public class SignalButton : Button
     public override void _Pressed()
     {
         base._Pressed();
-        SignalManger.SendSignal("build_button_pressed", "res://Prefabs/Node.tscn");
-        
+        SignalManger.SendSignal("build_button_pressed", BuildingPrefab);
+
     }
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
