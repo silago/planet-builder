@@ -1,0 +1,6 @@
+/home/silago/work/planet-builder/.mono/temp/obj/Debug/Planet Builder.csprojAssemblyReference.cache
+/home/silago/work/planet-builder/.mono/temp/obj/Debug/Planet Builder.csproj.CoreCompileInputs.cache
+/home/silago/work/planet-builder/.mono/temp/bin/Debug/Planet Builder.dll
+/home/silago/work/planet-builder/.mono/temp/bin/Debug/Planet Builder.pdb
+/home/silago/work/planet-builder/.mono/temp/obj/Debug/Planet Builder.dll
+/home/silago/work/planet-builder/.mono/temp/obj/Debug/Planet Builder.pdb

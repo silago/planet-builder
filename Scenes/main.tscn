@@ -48,6 +48,9 @@ margin_right = 154.0
 margin_bottom = 217.0
 text = "Build Tree"
 script = ExtResource( 2 )
+Requirements = {
+"wood": 10
+}
 BuildingPrefab = ExtResource( 5 )
 
 [node name="Camera2D" type="Camera2D" parent="."]

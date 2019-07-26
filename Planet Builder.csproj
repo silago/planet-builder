@@ -53,9 +53,11 @@
     <Compile Include="Scripts\BaseBuilding.cs" />
     <Compile Include="Scripts\BuildPlacer.cs" />
     <Compile Include="Scripts\EventsHandler.cs" />
+    <Compile Include="Scripts\NodeExtenstions.cs" />
     <Compile Include="Scripts\SignalButton.cs" />
     <Compile Include="Scripts\SignalManger.cs" />
     <Compile Include="Scripts\BuildSignalReactor.cs" />
+    <Compile Include="Scripts\Userdata.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

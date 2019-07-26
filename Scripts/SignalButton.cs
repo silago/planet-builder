@@ -1,9 +1,15 @@
 using Godot;
 using System;
+using Godot.Collections;
 
 public class SignalButton : Button
 {
 
+    [Export]
+    protected Dictionary<string, int> Requirements;
+    
+    [Export]
+    protected String SignalName;
     
     [Export]
     protected PackedScene BuildingPrefab;
@@ -20,8 +26,7 @@ public class SignalButton : Button
     public override void _Pressed()
     {
         base._Pressed();
-        SignalManger.SendSignal("build_button_pressed", BuildingPrefab);
-
+        SignalManger.SendSignal( SignalName, BuildingPrefab);
     }
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.

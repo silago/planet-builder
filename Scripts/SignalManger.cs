@@ -13,11 +13,8 @@ public class SignalManger : Node
     //}
 
     public static List<Node> activeObjects = new List<Node>();
-    
-    
     public delegate void Signal(params object[] vars);
-    
-    public static Godot.Collections.Dictionary<string, EventsHandler> events = new Godot.Collections.Dictionary<string, EventsHandler>();
+    private static readonly Godot.Collections.Dictionary<string, EventsHandler> events = new Godot.Collections.Dictionary<string, EventsHandler>();
     
     public static void SendSignal(string name, params object[] vars)
     {
